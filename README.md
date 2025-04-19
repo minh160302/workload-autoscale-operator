@@ -1,10 +1,10 @@
-# workloadautoscale-operator
+# workload-autoscale-operator
 
 A Kubernetes operator that scales pods based on active workloads.
 
 ## Description
 
-`workloadautoscale-operator` actively listens to a message queue. Then, the Operator creates a pod for each message to execute them using `workerImage`, which is defined in the configuration file. It is designed for task-based systems where traditional CPU/memory-based autoscaling isn't effective.
+`workload-autoscale-operator` actively listens to a message queue. Then, the Operator creates a pod for each message to execute them using `workerImage`, which is defined in the configuration file. It is designed for task-based systems where traditional CPU/memory-based autoscaling isn't effective.
 
 ## Getting Started
 
@@ -117,7 +117,7 @@ is manually re-applied afterwards.
 
 ## Contributing
 
-// TODO(user): Add detailed information on how you would like others to contribute to this project
+<!-- // TODO(user): Add detailed information on how you would like others to contribute to this project -->
 
 **NOTE:** Run `make help` for more information on all potential `make` targets
 
